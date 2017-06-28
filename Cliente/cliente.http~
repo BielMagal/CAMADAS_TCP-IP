@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Location: http://127.0.0.1:8080
+Date: Jun 27 2017 13:53:06
+Server: Apache/2.2.22
+Content-Type: text/html
+Connection: close
+
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style></style>
+  </head>
+  <body>
+  	<h1>Pagina do Cliente</h1>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+0
+7070
+8080
+370
+4321159155
+HTTP/1.1 404 Not Found
+Location: http://Location: http://Location: http://Location: http://127.0.0.1:8080:Date: Jun 27 2017 14:09:16
+Date: Jun 27 2017 14:09:16
+Server: Apache/2.2.22
+Content-Type: text/html
+Connection: close
+
+
+
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style></style>
+  </head>
+  <body>
+  	<h1>Not Found</h1>
+  </body>
+</html>
+|fimMensagem|

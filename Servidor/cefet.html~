@@ -1,0 +1,8805 @@
+
+
+
+
+
+
+<!doctype html>
+
+	
+	
+	
+	
+	
+
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+
+	<html lang="pt-BR">
+
+		<head>
+				<!--Não comentar a linha abaixo. Sem ela o modo de documento no IE10 usa o do IE7 -->  
+			   
+			    
+				<meta charset="utf-8">
+				<meta name="robots" content="index, follow" />
+				<meta content="O CEFET-MG oferece ao seu aluno uma formação acadêmica completa, desde o técnico de nível médio até o doutoramento." name="description" />
+			    <title>CEFET-MG - Centro Federal de Educação Tecnológica de Minas Gerais</title>
+
+			    <!--[if lt IE 9]>
+			    <script type="text/javascript">
+			        document.createElement('header');
+			        document.createElement('nav');
+			        document.createElement('section');
+			        document.createElement('article');
+			        document.createElement('aside');
+			        document.createElement('footer');
+			    </script>
+			    <![endif]-->
+
+			    <!--PRINCIPAL-->
+			    <link type="text/css" rel="stylesheet" href="/system/modules/br.com.squadra.principal/resources/css/cefet.css"/>
+			    <!--[if IE]><link rel="stylesheet" href="/system/modules/br.com.squadra.principal/resources/css/cefet_OLDIE.css"><![endif]-->
+			    <!--[if IE 7]><link rel="stylesheet" href="/system/modules/br.com.squadra.principal/resources/css/cefet_IE7.css"><![endif]-->
+			    <!-- SLIDER -->
+			    <link rel="stylesheet" href="/system/modules/br.com.squadra.principal/resources/css/skitter.styles.min.css"/>
+			    <!-- JQUERY-UI -->
+			    <link rel="stylesheet" href="/portalcefet/export/system/modules/br.com.squadra.util/resources/css/jqueryUI/jquery-ui-1.10.3.custom.min.css"/>
+			    <!-- CAROUSEL -->
+    			<link rel="stylesheet" href="/portalcefet/export/system/modules/br.com.squadra.util/resources/css/carousel/tango/skin.css"/>
+				<!-- MODAL -->
+			    <link rel="stylesheet" href="/portalcefet/export/system/modules/br.com.squadra.util/resources/css/colorbox.css">
+			    <!-- VIDEO JS -->
+			    
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+<link rel="stylesheet" href="/system/modules/br.com.squadra.principal/resources/css/video-js.css"/>
+
+
+
+
+
+
+
+			<!-- JQUERY -->
+	   		
+			<script src="/system/modules/br.com.squadra.util/resources/js/jquery-1.10.2.min.js"></script>
+	  		
+			<link rel="shortcut icon" href="/system/modules/br.com.squadra.principal/resources/imagens/favicon.ico" type="image/x-icon">
+			
+			<!-- formulario //-->
+			<link rel="stylesheet" href="/system/modules/br.com.squadra.principal/resources/css/cmxform.css"/>	
+			
+			<link rel="stylesheet" href="/system/modules/br.com.squadra.principal/resources/css/formulario.css"/>			
+			
+			
+		</head>
+		
+		<body>
+		
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5&appId=516921728421917";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+			</script>
+
+			<input type="hidden" id="contextoDinamico" name="contextoDinamico" value="/" />
+		    <noscript>Os scripts necessários para o funcionamento do portal não foram carregados</noscript>
+			<!--<section class="barra_governo barra_governo_azul">
+				<div class="content">
+					<nav class="barra_governo_links">
+						<a href="http://www.brasil.gov.br/"><i class="bola bola_brasil"></i></a>
+				  		<a href="http://www.acessoainformacao.gov.br"><i class="bola bola_inform"></i></a>
+					</nav>	
+				</div>
+			</section>
+			
+			<section class="barra_governo barra_governo_verde"></section>
+			<section class="barra_governo barra_governo_amarela"></section>	
+			//-->
+			
+			<div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;"> 
+				<!--
+				<ul id="menu-barra-temp" style="list-style:none;">
+					<li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED"><a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a></li> 
+					<li><a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a></li> 
+				</ul> -->
+			</div> 
+			
+				<section id="globalContent">
+				
+					<header>
+			        	
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+</script>
+
+<section class="content">
+
+	<ul id="acessibilidade">
+		<li class="lang">
+			<a class="enabled" id="lang_br" href="#" title="Português"></a>
+		</li>
+		<li class="lang">
+			<a id="lang_en" href="#" title="Ingles"></a>
+		</li>
+		<li class="sizeFonte">
+			<a id="default" href="#" title="Tamanho normal">A</a>
+		</li>
+		<li class="sizeFonte">
+			<a id="diminuir" href="#" title="Diminuir Fonte">-A</a>
+		</li>
+		<li class="sizeFonte">
+			<a id="aumentar" href="#" title="Aumentar fonte">+A</a>
+		</li>
+		<li class="sizeFonte altoContraste">
+			<a id="ac" href="#" title="Alto constraste"></a>
+		</li>
+<!--		
+		<li>
+			<a href="#" title="Acessibilidade">Acessibilidade</a>
+		</li>                    
+		<li>
+			<a href="#" title="Fórum">Fórum</a>
+		</li>
+-->		
+		<li>
+			<a href="/textoGeral/faleConosco.html" title="Fale Conosco">Fale Conosco</a>
+		</li>
+	</ul>	
+	
+	
+
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+	<h1>
+		<a href="/index.html" id="logo" title="CEFET-MG">
+			<img src="/galeria/imagens/Pagina_CEFET_Logo-Topo.png" alt="Logo">
+		</a>
+		
+	</h1>
+	
+	
+	<a href="http://opencms.dri.cefetmg.br/minisites/minisite1/" id="logoUT" title="Rumo à transformação em Universidade Tecnológica">
+		<img class="LogoUT" src="/galeria/imagens/LogoUT.png" alt="LogoUT">
+	</a>
+		
+	
+	
+
+
+	<nav>
+	
+		
+
+
+
+
+		
+		
+
+		
+	
+
+				<ul>
+
+					
+					
+						
+						
+						
+						
+						
+
+						
+						
+
+						
+
+						<li
+							
+							
+								class="submenu
+								
+								
+								"
+							
+							
+						>
+
+						
+
+						 
+							<span>
+						
+
+						Instituição
+						
+						
+							</span>
+						
+
+						
+
+
+							
+								<ul>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/historia.html" title="História">
+											
+											
+											
+											
+											História
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/instituicao/quemequem.html" title="Quem é quem">
+											
+											
+											
+											
+											Quem é quem
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+											
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_blank" href="/galeria/indicadores/Organograma_Geral_2013.jpg" title="Organograma">
+											
+											
+											
+											
+											Organograma
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+											
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_blank" href="/galeria/indicadores/PDI_CEFETMG_2011_2015_Saida.pdf" title="PDI">
+											
+											
+											
+											
+											PDI
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Relatórios de Gestão
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/Indicadores/Relatorios_Gestao.html" title="Relatório de Gestão">
+																<span>Relatório de Gestão</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/Indicadores/cefet_em_numeros.html" title="CEFET-MG em números">
+																<span>CEFET-MG em números</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/Indicadores/dados_estatisticos.html" title="Dados Estatísticos">
+																<span>Dados Estatísticos</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/diretoriageral.html" title="Diretoria Geral">
+											
+											
+											
+											
+											Diretoria Geral
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Diretorias Especializadas
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.dept.cefetmg.br/" title="Educação Profissional e Tecnológica">
+																<span>Educação Profissional e Tecnológica</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.graduacao.cefetmg.br/" title="Graduação">
+																<span>Graduação</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.posgraduacao.cefetmg.br/dppg/" title="Pesquisa e Pós-Graduação">
+																<span>Pesquisa e Pós-Graduação</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://opencms.dri.cefetmg.br/site/gestao/" title="Planejamento e Gestão">
+																<span>Planejamento e Gestão</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.dedc.cefetmg.br/" title="Extensão e Desenvolvimento Comunitário">
+																<span>Extensão e Desenvolvimento Comunitário</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Secretarias Especializadas
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/secom.html" title="Comunicação Social">
+																<span>Comunicação Social</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.sgi.cefetmg.br/" title="Governança de Informação">
+																<span>Governança de Informação</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.assistenciaestudantil.cefetmg.br/" title="Política Estudantil">
+																<span>Política Estudantil</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/srca.html" title="Registro e Controle Acadêmico">
+																<span>Registro e Controle Acadêmico</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.sri.cefetmg.br/" title="Relações Internacionais">
+																<span>Relações Internacionais</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Conselhos
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.conselhodiretor.cefetmg.br/" title="Conselho Diretor">
+																<span>Conselho Diretor</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.cepe.cefetmg.br/" title="CEPE">
+																<span>CEPE</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.dept.cefetmg.br/site/sobre/aux/CEPT/composicao2015_2017.html" title="CEPT">
+																<span>CEPT</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/conselhos/cgrad.html" title="CGrad">
+																<span>CGrad</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/conselhos/cppg.html" title="CPPG">
+																<span>CPPG</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/conselhos/cext.html" title="CExt">
+																<span>CExt</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Comissões Permanentes
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.copeve.cefetmg.br/" title="COPEVE">
+																<span>COPEVE</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.cpa.cefetmg.br/" title="CPA">
+																<span>CPA</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/instituicao/cppd.html" title="CPPD">
+																<span>CPPD</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/instituicao/cis.html" title="CIS">
+																<span>CIS</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/instituicao/cic.html" title="CIC">
+																<span>CIC</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://opencms.dri.cefetmg.br/site/instituicao/aux/comissoes_permanentes/CPAPI/" title="CPAPI">
+																<span>CPAPI</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Unidades
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="http://www.araxa.cefetmg.br/" title="Araxá">
+																<span>Araxá</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="http://www.campus1.cefetmg.br/" title="Belo Horizonte - Câmpus I">
+																<span>Belo Horizonte - Câmpus I</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="http://www.campus2.cefetmg.br/" title="Belo Horizonte - Câmpus II">
+																<span>Belo Horizonte - Câmpus II</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="http://www.curvelo.cefetmg.br/" title="Curvelo">
+																<span>Curvelo</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="http://www.contagem.cefetmg.br/" title="Contagem">
+																<span>Contagem</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="http://www.divinopolis.cefetmg.br/" title="Divinópolis">
+																<span>Divinópolis</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="http://www.leopoldina.cefetmg.br/" title="Leopoldina">
+																<span>Leopoldina</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="http://www.nepomuceno.cefetmg.br/" title="Nepomuceno">
+																<span>Nepomuceno</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="http://www.timoteo.cefetmg.br/" title="Timóteo">
+																<span>Timóteo</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="http://www.varginha.cefetmg.br/" title="Varginha">
+																<span>Varginha</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+								</ul>
+							
+						</li>
+						
+					
+						
+						
+						
+						
+						
+
+						
+						
+
+						
+
+						<li
+							
+							
+								class="submenu
+								
+								
+								"
+							
+							
+						>
+
+						
+
+						 
+							<span>
+						
+
+						Estude no CEFET-MG
+						
+						
+							</span>
+						
+
+						
+
+
+							
+								<ul>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/tecnico.html" title="Cursos técnicos">
+											
+											
+											
+											
+											Cursos técnicos
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/graduacao.html" title="Graduação - Vestibular e SiSU">
+											
+											
+											
+											
+											Graduação - Vestibular e SiSU
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/transferir.html" title="Graduação - Transferência">
+											
+											
+											
+											
+											Graduação - Transferência
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/novotitulo.html" title="Graduação - Obtenção de novo título">
+											
+											
+											
+											
+											Graduação - Obtenção de novo título
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/posgrad.html" title="Pós-Graduação">
+											
+											
+											
+											
+											Pós-Graduação
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+								</ul>
+							
+						</li>
+						
+					
+						
+						
+						
+						
+						
+
+						
+						
+
+						
+
+						<li
+							
+							
+								class="submenu
+								
+								
+								"
+							
+							
+						>
+
+						
+
+						 
+							<span>
+						
+
+						Cursos
+						
+						
+							</span>
+						
+
+						
+
+
+							
+								<ul>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Educação Profissional e Tecnológica
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/Cursos/Tecnicos/Controle-Ambiental.html" title="Controle Ambiental">
+																<span>Controle Ambiental</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Edificacoes.html" title="Edificações">
+																<span>Edificações</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/Cursos/Tecnicos/Eletroeletronica.html" title="Eletroeletrônica">
+																<span>Eletroeletrônica</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Eletromecanica.html" title="Eletromecânica">
+																<span>Eletromecânica</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Eletronica.html" title="Eletrônica">
+																<span>Eletrônica</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Eletrotecnica.html" title="Eletrotécnica">
+																<span>Eletrotécnica</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Equipamentos-Biomedicos.html" title="Equip. Biomédicos">
+																<span>Equip. Biomédicos</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Hospedagem.html" title="Hospedagem">
+																<span>Hospedagem</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Estradas.html" title="Estradas">
+																<span>Estradas</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Informatica.html" title="Informática">
+																<span>Informática</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Informatica-para-Internet.html" title="Informática para Internet">
+																<span>Informática para Internet</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Mecanica.html" title="Mecânica">
+																<span>Mecânica</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Mecatronica.html" title="Mecatrônica">
+																<span>Mecatrônica</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Meio-Ambiente.html" title="Meio Ambiente">
+																<span>Meio Ambiente</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Metalurgia.html" title="Metalurgia">
+																<span>Metalurgia</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Mineracao.html" title="Mineração">
+																<span>Mineração</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Producao-de-Moda.html" title="Produção de Moda">
+																<span>Produção de Moda</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Quimica.html" title="Química">
+																<span>Química</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/Rede-de-Computadores.html" title="Redes de Computadores">
+																<span>Redes de Computadores</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Tecnicos/transito.html" title="Trânsito">
+																<span>Trânsito</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Graduação
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Administracao.html" title="Administração">
+																<span>Administração</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Engenharia-Ambiental.html" title="Eng. Ambiental e Sanitária">
+																<span>Eng. Ambiental e Sanitária</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Engenharia-de-Automacao-Industrial.html" title="Eng. Automação Industrial">
+																<span>Eng. Automação Industrial</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/Cursos/Graduacao/Eng_Civil_Curvelo.html" title="Eng. Civil Curvelo">
+																<span>Eng. Civil Curvelo</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/Cursos/Graduacao/Engenharia-Civil.html" title="Eng. Civil Varginha">
+																<span>Eng. Civil Varginha</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Engenharia-de-Computacao-BH.html" title="Eng. de Comp. BH">
+																<span>Eng. de Comp. BH</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Engenharia-de-Computacao-Timoteo.html" title="Eng. de Comp. Timóteo">
+																<span>Eng. de Comp. Timóteo</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Engenharia-de-Controle-e-Automacao.html" title="Eng. de Cont. e Autom.">
+																<span>Eng. de Cont. e Autom.</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Engenharia-Eletrica.html" title="Eng. Elétrica">
+																<span>Eng. Elétrica</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Engenharia-de-Materiais.html" title="Eng. de Materiais">
+																<span>Eng. de Materiais</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Engenharia-Mecanica.html" title="Eng. Mecânica">
+																<span>Eng. Mecânica</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Engenharia-Mecatronica.html" title="Eng. Mecatrônica">
+																<span>Eng. Mecatrônica</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Engenharia-de-Minas.html" title="Eng. de Minas">
+																<span>Eng. de Minas</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Engenharia-de-Producao-Civil.html" title="Eng. Produção Civil">
+																<span>Eng. Produção Civil</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/Cursos/Graduacao/Engenharia-de-Transportes.html" title="Eng. de Transportes">
+																<span>Eng. de Transportes</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Letras.html" title="Letras">
+																<span>Letras</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Formacao-Pedagogica-de-Docentes.html" title="Formação Pedagógica">
+																<span>Formação Pedagógica</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+															
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_blank" href="/textoGeral/Cursos/Graduacao/Quimica-Tecnologica.html" title="Química Tecnológica">
+																<span>Química Tecnológica</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Pós-Graduação
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.latosensu.cefetmg.br/" title="Lato Sensu">
+																<span>Lato Sensu</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.posgraduacao.cefetmg.br/dppg/index.php/pt/programas-stricto-sensu" title="Scricto Sensu">
+																<span>Scricto Sensu</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+								</ul>
+							
+						</li>
+						
+					
+						
+						
+						
+						
+						
+
+						
+						
+
+						
+
+						<li
+							
+							
+								class="submenu
+								
+								
+								"
+							
+							
+						>
+
+						
+
+						 
+							<span>
+						
+
+						Pesquisa
+						
+						
+							</span>
+						
+
+						
+
+
+							
+								<ul>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.posgraduacao.cefetmg.br/dppg/" title="Diretoria de Pesquisa e Pós-Graduação">
+											
+											
+											
+											
+											Diretoria de Pesquisa e Pós-Graduação
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Coordenações
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.posgraduacao.cefetmg.br/dppg/index.php/pt/divulgacao-cat" title="Divulgação Científica e Tecnológica">
+																<span>Divulgação Científica e Tecnológica</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.posgraduacao.cefetmg.br/dppg/index.php/pt/inovacao-tecnologica" title="Inovação Tecnológica">
+																<span>Inovação Tecnológica</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.posgraduacao.cefetmg.br/dppg/index.php/pt/fomento-a-papg" title="Fomento à P&PG">
+																<span>Fomento à P&PG</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.posgraduacao.cefetmg.br/dppg/index.php/pt/lato-sensu" title="Programa de Pós-Graduação lato sensu">
+																<span>Programa de Pós-Graduação lato sensu</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.posgraduacao.cefetmg.br/dppg/index.php/pt/programas-stricto-sensu" title="Programa de Pós-Graduação scrito sensu">
+																<span>Programa de Pós-Graduação scrito sensu</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.posgraduacao.cefetmg.br/dppg/index.php/pt/iniciacao-cientifica" title="Iniciação Científica">
+											
+											
+											
+											
+											Iniciação Científica
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.posgraduacao.cefetmg.br/dppg/index.php/pt/grupos-de-pesquisa" title="Grupos de Pesquisa">
+											
+											
+											
+											
+											Grupos de Pesquisa
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.somos.cefetmg.br/" title="Somos">
+											
+											
+											
+											
+											Somos
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://periodicos.cefetmg.br/index.php/revista-et" title="Revista Educação e Tecnologia">
+											
+											
+											
+											
+											Revista Educação e Tecnologia
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/editais_chamadas.html" title="Editais e chamadas públicas">
+											
+											
+											
+											
+											Editais e chamadas públicas
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+								</ul>
+							
+						</li>
+						
+					
+						
+						
+						
+						
+						
+
+						
+						
+
+						
+
+						<li
+							
+							
+								class="submenu
+								
+								
+								"
+							
+							
+						>
+
+						
+
+						 
+							<span>
+						
+
+						Extensão
+						
+						
+							</span>
+						
+
+						
+
+
+							
+								<ul>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.dedc.cefetmg.br/" title="Portal da Extensão">
+											
+											
+											
+											
+											Portal da Extensão
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.dedc.cefetmg.br/site/sobre/aux/coordenacoes/cood_geral_prog_ext_desen_comu.html" title="Programas de Extensão">
+											
+											
+											
+											
+											Programas de Extensão
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.diversidades.cefetmg.br/index.html" title="Inclusão e Diversidades">
+											
+											
+											
+											
+											Inclusão e Diversidades
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.dedc.cefetmg.br/site/sobre/aux/coordenacoes/coord_geral_tranf_tecno.html" title="Transferência de Tecnologia">
+											
+											
+											
+											
+											Transferência de Tecnologia
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.dedc.cefetmg.br/site/sobre/aux/coordenacoes/coord_geral_atv_cult.html" title="Atividades Culturais">
+											
+											
+											
+											
+											Atividades Culturais
+						
+											
+											
+												</a>
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.festivaldearteecultura.cefetmg.br/" title="Festival de Arte e Cultura">
+																<span>Festival de Arte e Cultura</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+								</ul>
+							
+						</li>
+						
+					
+						
+						
+						
+						
+						
+
+						
+						
+
+						
+
+						<li
+							
+							
+								class="submenu
+								
+								
+								"
+							
+							
+						>
+
+						
+
+						 
+							<span>
+						
+
+						Aluno
+						
+						
+							</span>
+						
+
+						
+
+
+							
+								<ul>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/Biblioteca.html" title="Biblioteca">
+											
+											
+											
+											
+											Biblioteca
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+											
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_blank" href="/galeria/download/Cartilha_Smode_2011.pdf" title="Cartilha Smode">
+											
+											
+											
+											
+											Cartilha Smode
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/contaunificada.html" title="Conta Unificada">
+											
+											
+											
+											
+											Conta Unificada
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.estagio.cefetmg.br/" title="Estágio">
+											
+											
+											
+											
+											Estágio
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+											
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_blank" href="/galeria/guia_academico/Guia_Graduacao_A5_CEFETMG_2016_2_Digital.pdf" title="Guia Acadêmico">
+											
+											
+											
+											
+											Guia Acadêmico
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://moodle.cefetmg.br/" title="Moodle">
+											
+											
+											
+											
+											Moodle
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.assistenciaestudantil.cefetmg.br/" title="Políticas Estudantis">
+											
+											
+											
+											
+											Políticas Estudantis
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Proj. Educacionais
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/aluno/arteseoficio.html" title="Artes e Ofício">
+																<span>Artes e Ofício</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://grupoassumpreto.blogspot.com.br/search/label/Hist%C3%B3rico" title="Assum Preto">
+																<span>Assum Preto</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://astronomianovaledoaco.blogspot.com.br/" title="Astronomia no Vale do Aço">
+																<span>Astronomia no Vale do Aço</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.cefastaerodesign.com/" title="CEFAST Aerodesign">
+																<span>CEFAST Aerodesign</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.ecofet.net/" title="Equipe ECOFET">
+																<span>Equipe ECOFET</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/aluno/nascente.html" title="Incubadora Nascente">
+																<span>Incubadora Nascente</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.formulacefast.com/" title="Formula CEFAST">
+																<span>Formula CEFAST</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.gedaicefetmg.blogspot.com.br/" title="GEDAI">
+																<span>GEDAI</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.lactea.cefetmg.br/" title="LACTEA">
+																<span>LACTEA</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/aluno/neac.html" title="NEAC">
+																<span>NEAC</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.trincabotz.com.br/" title="TRINCABOTZ">
+																<span>TRINCABOTZ</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://baja.cefast.com.br/" title="BAJA">
+																<span>BAJA</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Sistema Acadêmico
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.acad.cefetmg.br/qacademico/alunos" title="Graduação e Técnico">
+																<span>Graduação e Técnico</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/aluno/acad-pos.html" title="Pós-Graduação">
+																<span>Pós-Graduação</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.acad.cefetmg.br/qacademico/pais_aluno" title="Pais">
+																<span>Pais</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/redewifi.html" title="Rede Wi-Fi">
+											
+											
+											
+											
+											Rede Wi-Fi
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/registro_academico.html" title="Registro Acadêmico">
+											
+											
+											
+											
+											Registro Acadêmico
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+								</ul>
+							
+						</li>
+						
+					
+						
+						
+						
+						
+						
+
+						
+						
+
+						
+
+						<li
+							
+							
+								class="submenu
+								
+								
+								"
+							
+							
+						>
+
+						
+
+						 
+							<span>
+						
+
+						Servidor
+						
+						
+							</span>
+						
+
+						
+
+
+							
+								<ul>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/Biblioteca.html" title="Biblioteca">
+											
+											
+											
+											
+											Biblioteca
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+											
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_blank" href="/galeria/download/Cartilha_Smode_2011.pdf" title="Cartilha Smode">
+											
+											
+											
+											
+											Cartilha Smode
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://moodle.cefetmg.br/" title="Moodle">
+											
+											
+											
+											
+											Moodle
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.prefeitura.cefetmg.br/site/sobre/" title="Prefeitura">
+											
+											
+											
+											
+											Prefeitura
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Sistema Acadêmico
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/Servidor/acadservidor-gradtec.html" title="Graduação e Técnico">
+																<span>Graduação e Técnico</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/Servidor/acadservidor-pos.html" title="Pós-Graduação">
+																<span>Pós-Graduação</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Formulários
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://opencms.dri.cefetmg.br/site/gestao/dpg.html" title="Formulários DPG">
+																<span>Formulários DPG</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/formularios_coppe.html" title="Formulários COPPE">
+																<span>Formulários COPPE</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://opencms.dri.cefetmg.br/site/sobre/aux/servicos/formularios/" title="Outros formulários">
+																<span>Outros formulários</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://cs.sgi.cefetmg.br" title="Central de Serviços de TI">
+											
+											
+											
+											
+											Central de Serviços de TI
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+								</ul>
+							
+						</li>
+						
+					
+						
+						
+						
+						
+						
+
+						
+						
+
+						
+
+						<li
+							
+							
+								class="submenu
+								
+								
+								"
+							
+							
+						>
+
+						
+
+						 
+							<span>
+						
+
+						Trabalhe Conosco
+						
+						
+							</span>
+						
+
+						
+
+
+							
+								<ul>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/estagio.html" title="Estágios">
+											
+											
+											
+											
+											Estágios
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.concursopublico.cefetmg.br/" title="Professor Efetivo">
+											
+											
+											
+											
+											Professor Efetivo
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.professorsubstituto.cefetmg.br" title="Professor Temporário">
+											
+											
+											
+											
+											Professor Temporário
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.concursopublico.cefetmg.br/" title="Técnico-Administrativo em Educação">
+											
+											
+											
+											
+											Técnico-Administrativo em Educação
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+								</ul>
+							
+						</li>
+						
+					
+						
+						
+						
+						
+						
+
+						
+						
+
+						
+
+						<li
+							
+							
+								class="submenu
+								
+								
+									 inverted
+								
+								"
+							
+							
+						>
+
+						
+
+						 
+							<span>
+						
+
+						Acesso à Informação
+						
+						
+							</span>
+						
+
+						
+
+
+							
+								<ul>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+													class="inverted"
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/acessoainformacao/acoeseprogramas.html" title="Ações e programas">
+											
+											
+											
+											
+											Ações e programas
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+													class="inverted"
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/acessoainformacao/carta_cidadao.html" title="Carta de Serviços ao Cidadão">
+											
+											
+											
+											
+											Carta de Serviços ao Cidadão
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+													class="inverted"
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/acessoainformacao/convenios.html" title="Convênios">
+											
+											
+											
+											
+											Convênios
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+													class="inverted"
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/acessoainformacao/despesas.html" title="Despesas">
+											
+											
+											
+											
+											Despesas
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+														 inverted
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Licitações e contratos
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www3.transparencia.gov.br/TransparenciaPublica/jsp/contratos/contratoTexto.jsf?consulta=3&consulta2=0&CodigoOrgao=26257" title="Contratos">
+																<span>Contratos</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://opencms.dri.cefetmg.br/site/sobre/aux/servicos/licitacoes/" title="Editais">
+																<span>Editais</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/Licitacoes/Pregoes/pregoes.html" title="Pregões">
+																<span>Pregões</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.comprasnet.gov.br/" title="Licitações">
+																<span>Licitações</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+														
+													
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+													class="inverted"
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="http://www.portaltransparencia.gov.br/servidores/OrgaoLotacao-ListaServidores.asp?CodOS=15000&DescOS=MINISTERIO%20DA%20EDUCACAO&CodOrg=26257&DescOrg=CENTRO%20FED.DE%20EDUC.TECNOL.MINAS%20GERAIS" title="Servidores">
+											
+											
+											
+											
+											Servidores
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+													class="inverted"
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/acessoainformacao/sic.html" title="Serviço Informação ao Cidadão - SIC">
+											
+											
+											
+											
+											Serviço Informação ao Cidadão - SIC
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+														 inverted
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Sobre a Lei
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.cgu.gov.br/acessoainformacaogov/materiais-interesse/CartilhaAcessoaInformacao.pdf" title="Cartilha">
+																<span>Cartilha</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+																	
+																
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="http://www.cgu.gov.br/acessoainformacaogov/acesso-informacao-brasil/legislacao-integra-texto-completo.asp" title="Lei nº 12.527 de 16/05/2012">
+																<span>Lei nº 12.527 de 16/05/2012</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+														 inverted
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Institucional
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/diretoriageral.html" title="Apresentação">
+																<span>Apresentação</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/instituicao/quemequem.html" title="Quem é quem">
+																<span>Quem é quem</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/acessoainformacao/horarioatendimento.html" title="Horário de atendimento">
+																<span>Horário de atendimento</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/acessoainformacao/telefones.html" title="Telefones e endereços">
+																<span>Telefones e endereços</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+
+											<li
+												
+												
+												
+													class="submenu
+													
+													
+														 inverted
+													
+													"
+												
+												
+											>
+											
+											
+
+											
+											
+											
+												<span>
+											
+											
+											Auditoria Interna
+						
+											
+												</span>
+											
+											
+
+											
+												<ul>
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/acessoainformacao/auditorias/historico.html" title="Histórico">
+																<span>Histórico</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/acessoainformacao/auditorias/objetivos.html" title="Objetivos">
+																<span>Objetivos</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/acessoainformacao/auditorias/relatorios.html" title="Relatórios">
+																<span>Relatórios</span>
+															</a>
+														</li>
+
+													
+														
+														
+														
+														
+
+														
+														
+
+														
+											                
+												                
+												                
+												                    
+												                
+											                
+										                
+
+														<li>
+															<a target="_self" href="/textoGeral/acessoainformacao/auditorias/contato.html" title="Contato">
+																<span>Contato</span>
+															</a>
+														</li>
+
+													
+												</ul>
+											
+											</li>
+									
+										
+										
+										
+										
+										
+
+										
+										
+
+											
+								                
+									                
+									                
+									                    
+									                
+								                
+							                
+
+											<li
+												
+												
+												
+												
+													class="inverted"
+												
+											>
+											
+											
+
+											
+												<a target="_self" href="/textoGeral/acessoainformacao/infclassificadas.html" title="Informações classificadas">
+											
+											
+											
+											
+											Informações classificadas
+						
+											
+											
+												</a>
+											
+
+											
+											</li>
+									
+								</ul>
+							
+						</li>
+						
+					
+				</ul>
+	
+	
+	</nav>
+
+	<section id="login">
+		<div id="usuario">
+			<!-- <form  action="http://www.recad.cefetmg.br" method="post" name="implogin" id="formulario">
+				
+				<label for="login" class="hide">Usuario</label>
+				<input id="login_usuario" name="imapuser" class="usuario" type="text" placeholder="Login" value=" " height="100px">
+				
+				<label for="senha" class="hide">Password</label>
+				<input id="senha" name="pass" class="usuario" type="password" placeholder="senha" value=" ">
+	
+				<input type="hidden" name="actionID" value="105" /> 
+				<input type="hidden" name="redirect_url" value="http://webmail.cefetmg.br/horde3/login.php"> 
+				<input type="hidden" name="mailbox" value="INBOX" /> 
+				<input type="hidden" name="server" value="localhost" /> 
+				<input type="hidden" name="port" value="143" /> 
+				<input type="hidden" name="namespace" value="INBOX." /> 
+				<input type="hidden" name="maildomain" value="" /> 
+				<input type="hidden" name="protocol" value="imap" /> 
+				<input type="hidden" name="realm" value="" />
+			
+				<button type="submit" name="implogin">Webmail</button>
+				
+			</form> -->
+			
+			<div>
+				<h3 style="font-size:20px; font-family:'Oswald';">
+					<a href="https://webmail.cefetmg.br/" target="_blank">
+						<img src="/galeria/imagens/mail-logo-cefet.png" style="height:30px; float:left;" />
+						Serviço de e-mail
+					</a>
+				</h3>
+			</div>
+
+<!--		<div>
+				<a href="#" title="esqueci a senha">esqueci a senha</a>
+				<input id="lembre" type="checkbox" name="lembre">
+				<label for="lembre">Lembre-me</label>
+			</div>
+-->			
+		</div>
+		<div id="search">
+			 <form id="boxBusca" method="post" action="/busca.html">
+		            <label class="hide" for="searchHeader">O que você procura?</label>
+		            <input id="searchHeader" class="usuario" name="searchHeader" value=" " type="text" placeholder="O que você procura?">
+					<button class="search"><span></span></button>
+		     </form>
+
+			<!-- <a href="#" title="busca avançada">busca avançada</a>-->
+		</div>
+	</section>
+</section>
+
+<!-- INTEGRAÇÃO COM TWITTER -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- INTEGRAÇÃO COM O FACEBOOK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>		
+					</header>
+				
+				
+					
+					
+						     
+						     	<section id="main">
+							     	<section class="content">
+										
+										
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+
+																			
+							            
+										<!--
+										
+							            <div id="agendaEventosSection">
+							            	<h2><a href="/agenda/index.html" title="Agenda de eventos">Agenda de eventos</a></h2>
+							            	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	    
+	    
+	
+	<ul>
+		
+			
+			    
+		
+	</ul>
+											
+											
+											
+							            </div>
+										
+										
+											
+						            	
+
+										<!-- link para permitir exibi mais eventos //
+							            <div id="verTodaAgenda" class="content">
+												<a class="vermais" href="/agenda/index.html" title="Agenda de eventos">VER MAIS...</a>
+										</div>
+										-->
+										
+										
+																            	
+						            	
+								            <div id="noticiasSection">
+											
+											<!--
+											
+												<h2><a href="/noticias/index.html" title="Notícias">Notícias</a></h2>
+											-->
+								            	
+								            	<div id="noticiaTab" class="tabContent">
+								            		
+													
+														
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box_skitter">
+
+	
+	
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+	
+
+    <ul>
+    	
+    	
+    	
+    		
+    		
+    		
+    		
+    			
+    		
+    		
+    		
+    			
+    		
+    		
+    		<li>
+	            <a href="/noticias/arquivos/2017/06/noticia042.html"><img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Noticias-2017/06/estrangeiro01.jpg" alt="Música, dança e comidas típicas marcam encontro de estrangeiros"/></a>
+
+	            <div class="label_text">
+	                <p><a href="/noticias/arquivos/2017/06/noticia042.html">Música, dança e comidas típicas marcam encontro de estrangeiros</a></p>
+	                <div class="pContent">
+	                    <p><em>1&ordm; Encontro de Alunos Estrangeiros do CEFET-MG reuniu integrantes do curso de português para estrangeiros, além de estudantes do ensino técnico, da graduação e da pós-graduação</em></p>
+<p>&nbsp;</p>
+<p>Momento de descontração e integração: assim pode ser resumido o 1&ordm; Encontro de Alunos Estrangeiros do CEFET-MG. Durante a manhã e o início da tarde do último sábado (24), <em>campus </em>I, os estrangeiros se revezaram em apresentações de música e dança, além de mostrar suas culturas em barracas de comidas típicas e artesanato. Os alunos dos cursos de português para estrangeiros, refugiados e portadores de visto humanitário apresentaram os trabalhos finais e receberam os certificados de conclusão da capacitação ao final do evento.</p>
+<p>Participaram, além dos alunos do curso de português, estudantes que vieram para o CEFET-MG cursar o ensino técnico, a graduação ou a pós-graduação. Nora Essien é de Gana, país da África ocidental, e veio ao Brasil após ser aprovada na seleção para o Programa de Estudantes-Convênio de Graduação (PEC-G) do Governo Federal. No próximo ano, depois de concluir o curso de português, vai cursar Relações Internacionais em Uberlândia (MG). O PEC-G oferece oportunidades de formação superior a pessoas de países em desenvolvimento com os quais o Brasil mantém acordos educacionais e culturais.</p>
+<p>&ldquo;Gostei muito do Brasil, principalmente pela beleza, mas, com certeza, a minha principal dificuldade no país é com a língua&rdquo;, avalia Nora. A língua oficial em Gana é o inglês, com incidência de idiomas locais em várias partes do país. A oportunidade de aprender a língua portuguesa, para Nora, representa também um diferencial quando retornar a Gana. Durante o encontro, Nora mostrou seu talento musical em uma apresentação de canto com Félix Barimah, seu colega de Gana também vindo pelo PEC-G, acompanhados ao teclado pelo doutorando do Programa de Estudos de Linguagens (Posling) do CEFET-MG, Brice Agossa, do Benin.</p>
+<p>O secretário de Relações Internacionais, Jerônimo Coura Sobrinho, se surpreendeu com o sucesso do encontro e a interação entre os estrangeiros e as demais pessoas presentes. &ldquo;Tivemos a dimensão, nesse primeiro encontro, de quanto é necessário que essa integração aconteça frequentemente. Pretendemos, inclusive, nas próximas edições, proporcionar a participação mais efetiva dos servidores, dos docentes e dos alunos regulares do CEFET-MG&rdquo;, adianta.&nbsp; Segundo Jerônimo, a ideia é que o encontro seja realizado semestralmente.</p>
+<p>O encontro foi organizado pelo Grupo de Pesquisa em Linguagens e Tecnologia (Infortec), pela Secretaria de Relações Internacionais (SRI) e pela Diretoria de Extensão e Desenvolvimento Comunitário. <br />
+&nbsp;</p>
+<p style="text-align: right;">Secretaria de Comunicação Social / CEFET-MG</p>
+	                </div>
+	            </div>
+         	</li>
+         	
+         	
+    	
+    	
+    	
+    	
+    		
+    		
+    		
+    		
+    			
+    		
+    		
+    		
+    			
+    		
+    		
+    		<li>
+	            <a href="/noticias/arquivos/2017/06/noticia026.html"><img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Noticias-2017/06/JUN13-form-prof.jpg" alt="Programa de Formação de Docentes obtém nota máxima em avaliação"/></a>
+
+	            <div class="label_text">
+	                <p><a href="/noticias/arquivos/2017/06/noticia026.html">Programa de Formação de Docentes obtém nota máxima em avaliação</a></p>
+	                <div class="pContent">
+	                    <p><em>A nota do Ministério da Educação refere-se à renovação de reconhecimento do curso e avaliou instalações físicas, corpo docente e organização didático-pedagógica</em></p>
+<p>O Programa Especial de Formação Pedagógica de Docentes conquistou nota 5 na avaliação de renovação de reconhecimento do curso, pelo Ministério da Educação (MEC). A avaliação segue uma escala de 1 a 5 e observa a organização didático-pedagógica, o corpo docente, discente, técnico-administrativo e as instalações físicas do curso.</p>
+<p>A avaliação foi feita nos dias 1&ordm; e 2 de julho, quando duas avaliadoras do MEC verificaram a documentação específica do curso, como o Projeto Pedagógico, os planos de ensino das disciplinas, os relatórios de estágio, o horário de aulas, além do trabalho da coordenação e produção acadêmica dos professores. &ldquo;Eles entrevistaram os docentes e alunos, os membros da Comissão Permanente de Avaliação, como também visitaram as instalações do campus II, como Registro Acadêmico, biblioteca, laboratórios de informática, restaurante, sanitários&rdquo;, detalha a coordenadora do curso, professora Sabina Maura Silva.</p>
+<p>Conforme explica Sabina, a nota reconhece o esforço dos professores. &ldquo;A nota 5 recebida pelo Programa significa o reconhecimento do trabalho de qualidade desenvolvido aqui e é um grande estímulo para o grupo de docentes envolvidos no curso&rdquo;.</p>
+<p>O Programa Especial de Formação Pedagógica de Docentes é voltado para candidatos que já tenham concluído um curso de graduação, exceto licenciatura e curso de Pedagogia. Ele habilita os graduados para as disciplinas que integram as quatro séries finais do Ensino Fundamental, o Ensino Médio e a educação profissional em nível médio em Biologia, Física, Matemática, Química, Língua Portuguesa e nos Eixos Tecnológicos dos cursos ofertados pelo CEFET-MG. Para Sabina Silva, &ldquo;o curso oferecido pelo CEFET-MG destaca-se pela qualificação  dos docentes - todos doutores -, com grande experiência no campo da educação, bem como pela estrutura disponível aos discentes&rdquo;.</p>
+<p><strong>Como são as avaliações do MEC</strong></p>
+<p>Há três tipos de avaliação para os cursos superiores: para autorização, para reconhecimento e para renovação de reconhecimento. O primeiro tipo, para autorização, é feita quando uma instituição pede autorização ao MEC para abrir um curso. O segundo, para reconhecimento, ocorre quando a primeira turma entra na segunda metade do curso; é feita, então, uma segunda avaliação para verificar se foi cumprido o projeto apresentado para autorização. O terceiro, para renovação de reconhecimento, se dá a cada três anos.</p>
+<p>Em todas as avaliações, o MEC envia dois avaliadores &ndash; sorteados entre os cadastrados no Banco de Avaliadores (BASis) &ndash; à instituição, onde são avaliadas três dimensões do curso: a organização didático-pedagógica; o corpo docente e técnico-administrativo; e as instalações físicas.</p>
+<p style="text-align: right;">Secretaria de Comunicação Social / CEFET-MG</p>
+	                </div>
+	            </div>
+         	</li>
+         	
+         	
+    	
+    	
+    	
+    	
+    		
+    		
+    		
+    		
+    		
+    			
+    				
+	    				
+	    					
+	    				
+    				
+    			
+    		
+    		
+    			
+    		
+    		
+    		<li>
+	            <a href="/noticias/arquivos/2017/06/noticia025.html"><img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Noticias-2017/06/foto-5.jpg" alt="CEFET-MG recebe maquinário para a Unidade de Reciclagem Automotiva"/></a>
+
+	            <div class="label_text">
+	                <p><a href="/noticias/arquivos/2017/06/noticia025.html">CEFET-MG recebe maquinário para a Unidade de Reciclagem Automotiva</a></p>
+	                <div class="pContent">
+	                    <p><em>Estação elevatória para drenagem de fluídos e facilitadora de desmonte automotivo, importadas da Áustria, pesam mais de cinco toneladas e são fundamentais para o processo de reciclagem</em></p>
+<p>&nbsp;</p>
+<p>No último dia 13, o CEFET-MG deu mais um passo rumo à criação da primeira planta de reciclagem automotiva da América Latina. Isso porque a Unidade Piloto de Reciclagem Automotiva (UPRA), localizada no <em>campus</em> II (Belo Horizonte), recebeu dois equipamentos importados da Áustria fundamentais para que ocorra o processo de reciclagem: uma estação elevatória para drenagem dos fluídos veiculares (combustível, refrigerantes, entre outros) e uma facilitadora de desmonte automotivo. Juntos, os dois equipamentos pesam mais de cinco toneladas.</p>
+<p>De acordo com o prefeito do <em>campus</em> II, Itamar Gonçalves, que foi o responsável por receber o maquinário, estão sendo feitas as últimas adaptações necessárias na UPRA para instalação dos equipamentos. &ldquo;Na última semana, demos continuidade à colocação dos tubos pneumáticos para prover toda a Unidade Piloto de ar comprimido; além disso, estamos aguardando a chegada de dois quadros de energia específicos para estas máquinas e finalizando a laje da &lsquo;Casa do Compressor&rsquo;&rdquo;, explicou.</p>
+<p>Segundo Daniel Castro, professor do Departamento de Engenharia Mecânica e coordenador do projeto de reciclagem automotiva, com a chegada do maquinário, &ldquo;a próxima etapa é a entrega técnica, ou seja, a instalação, de fato, dos equipamentos, o que vai depender da conclusão das adaptações elétricas; feito isso, em seguida, vai haver um treinamento com a equipe responsável por operar a Unidade&rdquo;. <br />
+<br />
+A Unidade Piloto de Reciclagem Automotiva (UPRA) é uma parceria entre o CEFET-MG, a Agência de Cooperação Internacional do Japão (JICA) e a empresa Kaiho Sangyo.<br />
+<br />
+<strong>A reciclagem automotiva no CEFET-MG</strong><br />
+<br />
+Com a Unidade de Reciclagem Automotiva, o CEFET-MG tem por objetivo implementar um processo de reciclagem de veículos em fim de vida útil, contribuindo com a sustentabilidade do ciclo de produção de automóveis no país. <br />
+&nbsp;</p>
+<p style="text-align: right;">Secretaria de Comunicação Social/CEFET-MG<br />
+&nbsp;</p>
+	                </div>
+	            </div>
+         	</li>
+         	
+         	
+    	
+    	
+    </ul>
+    
+</div>
+													
+													
+								            		<!--<span class="destaque"><input type="hidden" value="cefet">CEFET-MG</span>
+								            		  |
+								            		<span><input type="hidden" value="unidades">Unidades</span>-->
+								            	</div>
+								            	
+												<!-- estava aqui o corpo -->
+												
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/system/modules/br.com.squadra.principal/resources/js/noticias.js"></script>
+
+
+
+
+
+
+
+
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+	
+			
+			
+	
+			
+			
+	
+
+
+<div class="cefet">
+
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+			
+			
+	
+
+	<ul class="text">
+		
+    	
+    	
+    		
+
+    		
+    		
+    		
+    	
+    	
+    	
+    	
+    		
+
+    		
+    		
+    		
+    	
+    	
+				
+
+				
+		    		
+		    		
+		    		
+
+		    			<li> 
+ 		    				<span class="date">28/06/2017</span><br />
+		    				
+							<a href="/noticias/arquivos/2017/06/noticia044.html" title="GEDAI adquire telescópios computadorizados para cinco campi">
+								GEDAI adquire telescópios computadorizados para cinco campi								
+							</a>
+						</li>
+						
+
+		    		
+		    	
+				
+				
+
+				
+		    		
+		    		
+		    		
+
+		    			<li> 
+ 		    				<span class="date">28/06/2017</span><br />
+		    				
+							<a href="/noticias/arquivos/2017/06/noticia043.html" title="Progest recebe inscrições para trabalho voluntário até 30 de junho">
+								Progest recebe inscrições para trabalho voluntário até 30 de junho								
+							</a>
+						</li>
+						
+
+		    		
+		    	
+				
+				
+
+				
+		    		
+		    		
+		    		
+
+		    			<li> 
+ 		    				<span class="date">27/06/2017</span><br />
+		    				
+							<a href="/noticias/arquivos/2017/06/noticia041.html" title="Nova diretoria assume campus VI, em Belo Horizonte">
+								Nova diretoria assume campus VI, em Belo Horizonte								
+							</a>
+						</li>
+						
+
+		    		
+		    	
+				
+				
+
+				
+		    		
+		    		
+		    		
+
+		    			<li> 
+ 		    				<span class="date">23/06/2017</span><br />
+		    				
+							<a href="/noticias/arquivos/2017/06/noticia038.html" title="Servidor pode se inscrever até segunda (26) em evento sobre PNEs">
+								Servidor pode se inscrever até segunda (26) em evento sobre PNEs								
+							</a>
+						</li>
+						
+
+		    		
+		    	
+				
+				
+
+				
+		    		
+		    		
+		    		
+
+		    			<li> 
+ 		    				<span class="date">23/06/2017</span><br />
+		    				
+							<a href="/noticias/arquivos/2017/06/noticia035.html" title="Data para envio de pitch para o Inova Minas Fapemig é prorrogada">
+								Data para envio de pitch para o Inova Minas Fapemig é prorrogada								
+							</a>
+						</li>
+						
+
+		    		
+		    	
+				
+				
+
+				
+		    		
+		    		
+		    		
+
+		    			<li> 
+ 		    				<span class="date">19/06/2017</span><br />
+		    				
+							<a href="/noticias/arquivos/2017/06/noticia034.html" title="Inscrições abertas para especialização em Engenharia de Software">
+								Inscrições abertas para especialização em Engenharia de Software								
+							</a>
+						</li>
+						
+
+		    		
+		    	
+				
+				
+
+				
+		    		
+		    		
+		    		
+
+		    			<li> 
+ 		    				<span class="date">19/06/2017</span><br />
+		    				
+							<a href="/noticias/arquivos/2017/06/noticia033.html" title="Ensino: seminário sobre contrarreforma prorroga inscrição de resumos">
+								Ensino: seminário sobre contrarreforma prorroga inscrição de resumos								
+							</a>
+						</li>
+						
+
+		    		
+		    	
+				
+				
+
+				
+		    		
+		    		
+		    		
+
+		    			<li> 
+ 		    				<span class="date">19/06/2017</span><br />
+		    				
+							<a href="/noticias/arquivos/2017/06/noticia032.html" title="Professor da Eng. de Transportes discute mobilidade no Brasil">
+								Professor da Eng. de Transportes discute mobilidade no Brasil								
+							</a>
+						</li>
+						
+
+		    		
+		    	
+				
+	</ul>
+	
+	<form id="frmNoticiasLink" name="frmNoticiasLink" action="/noticias/index.html?linknoticias=sim" method="post">
+		<input type="hidden" name="periodo" value="ano" />
+		<input type="hidden" name="ano" id="ano" />
+	</form>
+	<div id="verMaisNoticias" class="content">
+		<br />
+		<a class="vermais" href="javascript:pesquisaNoticiasAno();" title="">Ver mais...</a>
+	</div>
+
+	<br /><br /><br /><hr /><br />
+
+	<ul class="fotos">
+		
+    	
+    	
+    		
+    		
+    		
+    			
+    		
+    		
+    		
+			
+			
+    		
+    			<li>
+					<a href="/noticias/arquivos/2017/06/noticia040.html" title="Encontro de docentes discute avanços e mudanças da pós">
+						<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Noticias-2017/06/docentes.JPG_97567734.jpg" width="138" height="91" alt="Encontro de docentes discute avanços e mudanças da pós" />
+						<span>Encontro de docentes discute avanços e mudanças da pós</span>
+					</a>
+				</li>
+				
+				
+
+    		
+			
+			
+    		
+    	
+		    	
+    	
+    	
+    		
+    		
+    		
+    			
+    		
+    		
+    		
+			
+			
+    		
+    			<li>
+					<a href="/noticias/arquivos/2017/06/noticia037.html" title="Estacionamento do campus I passará por obras de acessibilidade">
+						<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Noticias-2017/06/acessibilidade.jpg_97567734.jpg" width="138" height="91" alt="Estacionamento do campus I passará por obras de acessibilidade" />
+						<span>Estacionamento do campus I passará por obras de acessibilidade</span>
+					</a>
+				</li>
+				
+				
+
+    		
+			
+			
+    		
+    	
+		    	
+    	
+    	
+    		
+    		
+    		
+    			
+    		
+    		
+    		
+			
+			
+    		
+    			<li>
+					<a href="/noticias/arquivos/2017/06/noticia036.html" title="Trabalhos do CEFET-MG são selecionados para o SBPC Jovem">
+						<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Noticias-2017/06/sbpc.jovem.jpg_97567734.jpg" width="138" height="91" alt="Trabalhos do CEFET-MG são selecionados para o SBPC Jovem" />
+						<span>Trabalhos do CEFET-MG são selecionados para o SBPC Jovem</span>
+					</a>
+				</li>
+				
+				
+
+    		
+			
+			
+    		
+    	
+		    	
+    	
+    	
+    		
+    		
+    		
+    		
+    			
+    				
+	    				
+	    					
+	    				
+    				
+    			
+    		
+    		
+			
+			
+    		
+    			<li>
+					<a href="/noticias/arquivos/2017/06/noticia039.html" title="7 ª Mostra de Trabalhos em Análise do Discurso acontece dia 4 de julho">
+						<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Noticias-2017/06/mostrad.jpg_97567734.jpg" width="138" height="91" alt="7 ª Mostra de Trabalhos em Análise do Discurso acontece dia 4 de julho" />
+						<span>7 ª Mostra de Trabalhos em Análise do Discurso acontece dia 4 de julho</span>
+					</a>
+				</li>
+				
+				
+
+    		
+			
+			
+    		
+    	
+		    	
+    	
+    	
+    		
+    		
+    		
+    		
+    			
+    				
+	    				
+    				
+    			
+    		
+    		
+			
+			
+    		
+			
+			
+    		
+    	
+		    	
+    	
+    	
+    		
+    		
+    		
+    		
+    			
+    				
+	    				
+    				
+    			
+    		
+    		
+			
+			
+    		
+			
+			
+    		
+    	
+		    	
+		
+			
+			
+			
+			
+				
+					
+						
+					
+				
+			
+			
+		
+			
+			
+			
+			
+				
+					
+						
+					
+				
+			
+			
+		
+			
+			
+			
+			
+				
+					
+						
+					
+				
+			
+			
+		
+			
+			
+			
+			
+				
+					
+						
+					
+				
+			
+			
+		
+			
+			
+			
+				
+			
+			
+			
+			
+			
+		
+			
+			
+			
+			
+				
+					
+						
+							
+						
+					
+				
+			
+			
+			
+			
+		
+			
+			
+			
+			
+				
+					
+						
+					
+				
+			
+			
+		
+			
+			
+			
+				
+			
+			
+			
+			
+			
+		
+			
+			
+			
+				
+			
+			
+			
+			
+			
+		
+			
+			
+			
+			
+				
+					
+						
+					
+				
+			
+			
+		
+			
+			
+			
+			
+				
+					
+						
+					
+				
+			
+			
+		
+			
+			
+			
+				
+			
+			
+			
+			
+			
+		
+			
+			
+			
+			
+				
+					
+						
+					
+				
+			
+			
+		
+			
+			
+			
+			
+				
+					
+						
+							
+						
+					
+				
+			
+			
+			
+			
+		
+			
+			
+			
+				
+			
+			
+			
+			
+			
+		
+
+		
+	</ul>
+
+	
+</div>
+
+
+<!--
+<div class="unidades">
+	<ul class="fotos">
+		<li>
+			<a href="#" title="noticia 04">
+				<img src="/system/modules/br.com.squadra.principal/resources/imagens/img_noticia04.jpg" alt="imgNoticia">
+				<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span>
+			</a>
+		</li>
+		<li>
+			<a href="#" title="noticia 01">
+				<img src="/system/modules/br.com.squadra.principal/resources/imagens/img_noticia01.jpg" alt="imgNoticia">
+				<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span>
+			</a>
+		</li>
+		<li>
+			<a href="#" title="noticia 02">
+				<img src="/system/modules/br.com.squadra.principal/resources/imagens/img_noticia02.jpg" alt="imgNoticia">
+				<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span>
+			</a>
+		</li>
+		<li>
+			<a href="#" title="noticia 03">
+				<img src="/system/modules/br.com.squadra.principal/resources/imagens/img_noticia03.jpg" alt="imgNoticia">
+				<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span>
+			</a>
+		</li>
+		<li>
+			<a href="#" title="noticia 06">
+				<img src="/system/modules/br.com.squadra.principal/resources/imagens/img_noticia06.jpg" alt="imgNoticia">
+				<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span>
+			</a>
+		</li>
+		<li>
+			<a href="#" title="noticia 05">
+				<img src="/system/modules/br.com.squadra.principal/resources/imagens/img_noticia05.jpg" alt="imgNoticia">
+				<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span>
+			</a>
+		</li>
+	</ul>
+	<ul class="text">
+		<li><a href="#" title="noticia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</a></li>
+		<li><a href="#" title="noticia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</a></li>
+		<li><a href="#" title="noticia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</a></li>
+		<li><a href="#" title="noticia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</a></li>
+		<li><a href="#" title="noticia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</a></li>
+		<li><a href="#" title="noticia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</a></li>
+	</ul>
+</div>	    -->
+
+								            		
+													
+								            </div><br />
+											
+							            
+										<!-- link para permitir exibir as outras notícias armazenadas //-->
+									<!--
+									<div id="verMaisNoticias" class="content">
+										<br /><br />
+										<a class="vermais" href="/noticias/index.html" title="Notícias" class="maisNoticias">VER MAIS...</a>
+									</div>
+									-->
+							        </section>
+									
+							</section>				
+							<section id="mainUnidades">
+								<section class="content">
+									<!--<h2><a href="#" title="Unidades">Unidades</a></h2>-->
+									<!--<h2>&nbsp&nbsp&nbspUnidades</h2>-->
+									
+									
+									<!-- unidades -->
+									
+
+
+
+
+
+
+
+
+
+
+
+					
+                    					
+						
+                    	
+	                    	
+							
+							
+                    		
+                    
+
+					
+                    					
+						
+                    	
+	                    	
+							
+							
+                    		
+                    
+
+					
+                    					
+						
+                    	
+	                    	
+							
+							
+                    		
+                    
+
+					
+                    					
+						
+                    	
+	                    	
+							
+							
+                    		
+                    
+
+					
+                    					
+						
+                    	
+	                    	
+							
+							
+                    		
+                    
+
+					
+                    					
+						
+                    	
+	                    	
+							
+							
+                    		
+                    
+
+					
+                    					
+						
+                    	
+	                    	
+							
+							
+                    		
+                    
+
+					
+                    					
+						
+                    	
+	                    	
+							
+							
+                    		
+                    
+
+					
+                    					
+						
+                    	
+	                    	
+							
+							
+                    		
+                    
+
+					
+                    					
+						
+                    	
+	                    	
+							
+							
+                    		
+                    
+
+					
+                    					
+						
+                    	
+	                    	
+							
+							
+                    		
+                    
+
+					
+				
+				
+
+
+
+
+<ul>
+	<li><img src="/system/modules/br.com.squadra.principal/resources/imagens/bg_unidades.png" scaleType="3" height="82" width="147" alt="Unidades"/></li>
+	
+	
+		
+		
+			
+			
+			
+				
+				
+
+				
+				
+					
+				
+				
+					
+						
+							 <li>
+						        <a href="http://www.araxa.cefetmg.br" target="blank " title="Araxá">
+						        	<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Unidades/imagens/araxa.jpg_1530575750.jpg" width="147" height="82" alt="Araxá" />
+						        	<div class="blackOpacity"></div>
+									<span>Araxá</span>
+						        </a>
+						    </li>
+						
+						
+					
+					
+				
+			
+			
+		
+	
+
+	
+	
+		
+		
+			
+			
+			
+				
+				
+
+				
+				
+					
+				
+				
+					
+						
+							 <li>
+						        <a href="http://www.campus1.cefetmg.br" target="blank " title="BH-Câmpus I">
+						        	<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Unidades/imagens/campus-i.jpg_1530575750.jpg" width="147" height="82" alt="BH-Câmpus I" />
+						        	<div class="blackOpacity"></div>
+									<span>BH-Câmpus I</span>
+						        </a>
+						    </li>
+						
+						
+					
+					
+				
+			
+			
+		
+	
+
+	
+	
+		
+		
+			
+			
+			
+				
+				
+
+				
+				
+					
+				
+				
+					
+						
+							 <li>
+						        <a href="http://www.campus2.cefetmg.br" target="blank " title="BH-Câmpus II">
+						        	<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Unidades/imagens/campus-ii.jpg_1530575750.jpg" width="147" height="82" alt="BH-Câmpus II" />
+						        	<div class="blackOpacity"></div>
+									<span>BH-Câmpus II</span>
+						        </a>
+						    </li>
+						
+						
+					
+					
+				
+			
+			
+		
+	
+
+	
+	
+		
+		
+			
+			
+			
+				
+				
+
+				
+				
+					
+				
+				
+					
+					
+						<li>
+					        <a href="http://opencms.dri.cefetmg.br/site/instituicao/aux/unidades/belo_horizonte/campusVI.html" target="blank " title="BH-Câmpus VI">
+					        	<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Unidades/imagens/campus-vi.jpg_1530575750.jpg" width="147" height="82" alt="BH-Câmpus VI" />
+					        	<div class="blackOpacity"></div>
+								<span>BH-Câmpus VI</span>
+					        </a>
+					    </li>
+					
+				
+			
+			
+		
+	
+
+	
+	
+		
+		
+			
+			
+			
+				
+				
+
+				
+				
+					
+				
+				
+					
+						
+							 <li>
+						        <a href="http://www.contagem.cefetmg.br" target="blank " title="Contagem">
+						        	<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Campus-Contagem/imagens/imagem01-1.jpg_1530575750.jpg" width="147" height="82" alt="Contagem" />
+						        	<div class="blackOpacity"></div>
+									<span>Contagem</span>
+						        </a>
+						    </li>
+						
+						
+					
+					
+				
+			
+			
+		
+	
+
+	
+	
+		
+		
+			
+			
+			
+				
+				
+
+				
+				
+					
+				
+				
+					
+						
+							 <li>
+						        <a href="http://www.curvelo.cefetmg.br" target="blank " title="Curvelo">
+						        	<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Unidades/imagens/curvelo.jpg_1530575750.jpg" width="147" height="82" alt="Curvelo" />
+						        	<div class="blackOpacity"></div>
+									<span>Curvelo</span>
+						        </a>
+						    </li>
+						
+						
+					
+					
+				
+			
+			
+		
+	
+
+	
+	
+		
+		
+			
+			
+			
+				
+				
+
+				
+				
+					
+				
+				
+					
+						
+							 <li>
+						        <a href="http://www.divinopolis.cefetmg.br" target="blank " title="Divinópolis">
+						        	<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Unidades/imagens/divinopolis.jpg_1530575750.jpg" width="147" height="82" alt="Divinópolis" />
+						        	<div class="blackOpacity"></div>
+									<span>Divinópolis</span>
+						        </a>
+						    </li>
+						
+						
+					
+					
+				
+			
+			
+		
+	
+
+	
+	
+		
+		
+			
+			
+			
+				
+				
+
+				
+				
+					
+				
+				
+					
+						
+							 <li>
+						        <a href="http://www.leopoldina.cefetmg.br" target="blank " title="Leopoldina">
+						        	<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Unidades/imagens/leopoldina.jpg_1530575750.jpg" width="147" height="82" alt="Leopoldina" />
+						        	<div class="blackOpacity"></div>
+									<span>Leopoldina</span>
+						        </a>
+						    </li>
+						
+						
+					
+					
+				
+			
+			
+		
+	
+
+	
+	
+		
+		
+			
+			
+			
+				
+				
+
+				
+				
+					
+				
+				
+					
+						
+							 <li>
+						        <a href="http://www.nepomuceno.cefetmg.br" target="blank " title="Nepomuceno">
+						        	<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Unidades/imagens/nepomuceno.jpg_1530575750.jpg" width="147" height="82" alt="Nepomuceno" />
+						        	<div class="blackOpacity"></div>
+									<span>Nepomuceno</span>
+						        </a>
+						    </li>
+						
+						
+					
+					
+				
+			
+			
+		
+	
+
+	
+	
+		
+		
+			
+			
+			
+				
+				
+
+				
+				
+					
+				
+				
+					
+						
+							 <li>
+						        <a href="http://www.timoteo.cefetmg.br" target="blank " title="Timóteo">
+						        	<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Unidades/imagens/timoteo2.jpg_1530575750.jpg" width="147" height="82" alt="Timóteo" />
+						        	<div class="blackOpacity"></div>
+									<span>Timóteo</span>
+						        </a>
+						    </li>
+						
+						
+					
+					
+				
+			
+			
+		
+	
+
+	
+	
+		
+		
+			
+			
+			
+				
+				
+
+				
+				
+					
+				
+				
+					
+						
+							 <li>
+						        <a href="http://www.varginha.cefetmg.br" target="blank " title="Varginha">
+						        	<img src="/portalcefet/export/sites/portalcefet/galeria_multimidia/galeria_fotos/arquivos/Unidades/imagens/varginha.jpg_1530575750.jpg" width="147" height="82" alt="Varginha" />
+						        	<div class="blackOpacity"></div>
+									<span>Varginha</span>
+						        </a>
+						    </li>
+						
+						
+					
+					
+				
+			
+			
+		
+	
+
+	
+</ul>
+
+									
+								</section>
+							</section>
+							
+							<br />
+							
+							<section id="mainSocial">
+								<section class="content">
+														            										
+									<!-- videos -->
+									
+
+
+
+
+
+
+
+
+<div class="videos">
+<!--<video id="videoIndex" class="video-js vjs-default-skin" controls preload="none" poster="http://static.fjcdn.com/comments/Meth+cooking+knowledge+to+beard+ratio.+Heisenberg+Level+_9f2095c8a3c8654899b284d6dbbc7f0a.jpg" data-setup="{}">-->
+<video id="videoIndex" class="video-js vjs-default-skin" controls preload="none" poster="" data-setup="{}">
+	<source src="media/video.webm" type='video/webm' />
+	<source src="media/video.mp4" type='video/mp4' />
+	<source src="media/video.ogv" type='video/ogg' />
+ 	</video>
+ 	<div class="descVideo">
+  	<span class="descricao">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</span>
+  	<ul class="carousel jcarousel-skin-tango">
+  		<li class="selected">
+  			<span id="01">
+  				<img src="/system/modules/br.com.squadra.principal/resources/imagens/img_thumb01.jpg" alt="thumb 01">
+  			</span>
+  		</li>
+  		<li>
+  			<span id="02">
+  				<img src="/system/modules/br.com.squadra.principal/resources/imagens/img_thumb01.jpg" alt="thumb 01">
+  			</span>
+  		</li>
+  		<li>
+  			<span id="03">
+  				<img src="/system/modules/br.com.squadra.principal/resources/imagens/img_thumb02.jpg" alt="thumb 02">
+  			</span>
+  		</li>
+  		<li>
+  			<span id="04">
+  				<img src="/system/modules/br.com.squadra.principal/resources/imagens/img_thumb03.jpg" alt="thumb 03">
+  			</span>
+  		</li>
+  		<li>
+  			<span id="05">
+  				<img src="/system/modules/br.com.squadra.principal/resources/imagens/img_thumb01.jpg" alt="thumb 01">
+  			</span>
+  		</li>
+  		<li>
+  			<span id="06">
+  				<img src="/system/modules/br.com.squadra.principal/resources/imagens/img_thumb03.jpg" alt="thumb 03">
+  			</span>
+  		</li>
+  		<li>
+  			<span id="07">
+  				<img src="/system/modules/br.com.squadra.principal/resources/imagens/img_thumb03.jpg" alt="thumb 03">
+  			</span>
+  		</li>
+  	</ul>
+ 	</div>
+</div>
+
+
+					            	<div id="facebookContent" style="margin:0px; width:290px; height:407px;">
+										<!--<h2>CEFET-MG no Facebook</h2>-->
+										<div class="topFacebook">
+											<a href="#" title="facebook CEFET">
+												<img src="/system/modules/br.com.squadra.principal/resources/imagens/ico_facebook.png" alt="cefet Facebook" style="width:104%;" />
+											</a>
+										</div>
+										<div class="faceGroup">
+												<!--<div class="fb-like-box" data-href="https://www.facebook.com/cefetmg?fref=ts" data-width="252" data-height="95" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="false"></div>
+												<div class="fb-activity" data-app-id="Display all actions associated with this app ID" data-site="http://www.cefetmg.br" data-action="likes, recommends" data-width="235" data-height="600" data-colorscheme="light" data-header="false" data-show-posts="true" ></div>
+											</div>-->
+											<div class="fb-page" data-href="https://www.facebook.com/cefetmg" data-height="355px" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/cefetmg"><a href="https://www.facebook.com/cefetmg"></a></blockquote></div></div>
+										</div>
+									</div>
+									
+									<div id="twitterContent">
+										<div class="topTwitter">
+											<a href="#" title="twitter CEFET">
+												<img src="/system/modules/br.com.squadra.principal/resources/imagens/ico_twitter.png" alt="cefet Twitter" style="width:104%;" />
+											</a>
+											<!--<img src="/system/modules/br.com.squadra.principal/resources/imagens/ico_twitter.png" alt="twitter bird">-->
+											<!--<h2>@cefet_mg</h2>-->
+											<!--<img class="topo" src="/system/modules/br.com.squadra.principal/resources/imagens/bg_topoTwitter.png" alt="top">-->
+										</div>
+										<div id="populateTwitter"></div>
+									</div>
+					            	
+									
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+    
+    
+        
+        
+        
+        
+    
+
+
+    
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+    
+    
+
+
+<!-- INÍCIO ENQUETE -->
+
+
+
+   			<div id="enqueteContent">
+            		<!--<h2><a href="#" title="Mais Buscadas">Enquete</a></h2>-->
+			<h2>Enquete</h2>
+            		<div id="boxEnquete">
+			            <p>Durante sua formação escolar, quais atividades, além do ensino propriamente, você prioriza:</p>
+						 
+					         
+								
+
+								
+							       Habilite Cookies no seu navegador!
+
+								
+						
+								<form id="formEnquete" action="/index.html" method="post">
+			                		<ul id="votar">
+										
+						            		
+						            		
+						            		<li>
+												<input type="radio" name="enquete" id="6969" value="6969" />&nbsp;atividades de pesquisa, como feiras, congressos, grupos de pesquisa etc.
+						             			<!-- label for="6969">atividades de pesquisa, como feiras, congressos, grupos de pesquisa etc.</label //-->
+											</li>
+						        		
+						            		
+						            		
+						            		<li>
+												<input type="radio" name="enquete" id="8098" value="8098" />&nbsp;atividades extensionistas que proporcionem contato direto com a comunidade.
+						             			<!-- label for="8098">atividades extensionistas que proporcionem contato direto com a comunidade.</label //-->
+											</li>
+						        		
+						            		
+						            		
+						            		<li>
+												<input type="radio" name="enquete" id="6728" value="6728" />&nbsp;atividades culturais e/ou extracurriculares.
+						             			<!-- label for="6728">atividades culturais e/ou extracurriculares.</label //-->
+											</li>
+						        		
+						            		
+						            		
+						            		<li>
+												<input type="radio" name="enquete" id="8382" value="8382" />&nbsp;atividades profissionais e de estágio.
+						             			<!-- label for="8382">atividades profissionais e de estágio.</label //-->
+											</li>
+						        		
+						            		
+						            		
+						            		<li>
+												<input type="radio" name="enquete" id="6924" value="6924" />&nbsp;somente o estudo; procuro não me envolver em outras atividades.
+						             			<!-- label for="6924">somente o estudo; procuro não me envolver em outras atividades.</label //-->
+											</li>
+						        		
+					                </ul>
+							
+			                <div class="mensagensAviso"><br />
+				                <p class="aviso">Favor escolher uma resposta</p>
+				                <p class='sucesso'>Voto efetuado com sucesso</p>
+				                <p class='erro'>Favor escolher uma resposta</p>
+			                </div>
+						
+			                  <div class="botoesEnquete">
+						        
+						            <button id="botaoVotar" type="submit" name="votar">Votar</button>
+						        
+						        <a href="/system/modules/br.com.squadra.enquete/elements/resultado.jsp?pathEnquete=/enquete/enquete_formacao.escolar.html" title="Resultado Parcial">Resultado Parcial</a>
+							
+							
+							<input type="hidden" name="voto" value="true"/>
+							<input type="hidden" id="pathEnquete" name="pathEnquete" value="/enquete/enquete_formacao.escolar.html"/>
+							
+					       </div>
+			            </form>
+						
+			        </div>
+            	</div>
+
+<!-- FIM ENQUETE -->
+					            	
+									
+					            	
+
+
+
+
+
+
+
+<div id="bannerGoverno">
+	<ul class="carousel jcarousel-skin-tango">
+		
+			
+			
+			
+				
+			
+			
+			<li>
+				
+				
+					
+				
+								
+				<a href="http://www.brasil.gov.br/" target="_blank" title="Portal Brasil">
+					<img src="/galeria/img_governo03.jpg?__scale=w:120,h:60,t:3" width="120" height="60" alt="Portal Brasil" />
+				</a>
+			</li>
+		
+			
+			
+			
+				
+			
+			
+			<li>
+				
+				
+					
+				
+								
+				<a href="http://www.periodicos.capes.gov.br/" target="_blank" title="periódicos">
+					<img src="/galeria/mini_banner/periodicos.jpg?__scale=w:120,h:60,t:3" width="120" height="60" alt="periódicos" />
+				</a>
+			</li>
+		
+			
+			
+			
+				
+			
+			
+			<li>
+				
+				
+					
+				
+								
+				<a href="http://www.gremiocefetmg.blogspot.com/" target="_blank" title="Grêmio">
+					<img src="/galeria/mini_banner/gremio.jpg?__scale=w:120,h:60,t:3" width="120" height="60" alt="Grêmio" />
+				</a>
+			</li>
+		
+			
+			
+			
+			
+			<li>
+				
+				
+								
+				<a href="/textoGeral/revista-extensao.html" target="_self" title="Grêmio">
+					<img src="/galeria/imagens/Revista_Extensao_Banner.jpg?__scale=w:120,h:60,t:3" width="120" height="60" alt="Grêmio" />
+				</a>
+			</li>
+		
+			
+			
+			
+				
+			
+			
+			<li>
+				
+				
+					
+				
+								
+				<a href="http://www.andifes.org.br" target="_blank" title="Andifes">
+					<img src="/galeria/mini_banner/andifes.jpg?__scale=w:120,h:60,t:3" width="120" height="60" alt="Andifes" />
+				</a>
+			</li>
+		
+			
+			
+			
+				
+			
+			
+			<li>
+				
+				
+					
+				
+								
+				<a href="http://opencms.dri.cefetmg.br/acessoainformacao/index.html" target="_blank" title="Acesso a informação exigida pelo governo federal">
+					<img src="/galeria/acessoainformacao/banner-120x60-verde.gif?__scale=w:120,h:60,t:3" width="120" height="60" alt="Acesso a informação exigida pelo governo federal" />
+				</a>
+			</li>
+		
+			
+			
+			
+				
+			
+			
+			<li>
+				
+				
+					
+				
+								
+				<a href="/index.html" target="_blank" title="">
+					<img src="/galeria/img_governo02.jpg?__scale=w:120,h:60,t:3" width="120" height="60" alt="" />
+				</a>
+			</li>
+		
+	</ul>
+</div>
+								</section>
+							</section>
+					
+					
+				
+					
+						<footer>
+							
+
+
+
+
+
+
+
+
+<section class="content">
+	
+	
+		
+		
+			
+			<ul>
+				
+				<li>
+					<span>Sobre a Instituição</span>
+				</li>
+				
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+								
+								
+									
+								
+								
+							
+							
+						
+						<li>
+							<a href="http://www.100anos.cefetmg.br/site/100anos/100anos.htm" title="100 anos de CEFET-MG" >100 anos de CEFET-MG</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+							
+								
+							
+						
+						<li>
+							<a href="http://cefetmg.br/textoGeral/historia.html" title="História" >História</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+							
+								
+							
+						
+						<li>
+							<a href="http://cefetmg.br/textoGeral/instituicao/quemequem.html" title="Quem é quem" >Quem é quem</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+							
+								
+							
+						
+						<li>
+							<a href="http://cefetmg.br/galeria/indicadores/Organograma_Geral_2013.jpg" title="Organograma" >Organograma</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+							
+								
+							
+						
+						<li>
+							<a href="http://cefetmg.br/textoGeral/acessoainformacao/carta_cidadao.html" title="Serviços ao Cidadão" >Serviços ao Cidadão</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+							
+								
+							
+						
+						<li>
+							<a href="http://cefetmg.br/textoGeral/acessoainformacao/horarioatendimento.html" title="Atendimento" >Atendimento</a>
+						</li>
+					
+				
+			 </ul>
+			
+			<ul>
+				
+				<li>
+					<span>Serviços</span>
+				</li>
+				
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+								
+								
+									
+								
+								
+							
+							
+						
+						<li>
+							<a href="http://www.sinapse.cefetmg.br/jsp/gru/pagina/manterguiagru/emitirguiagru.jsf" title="Emissão de GRU" >Emissão de GRU</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+							
+								
+							
+						
+						<li>
+							<a href="http://opencms.dri.cefetmg.br/site/sobre/aux/servicos/formularios/" title="Formulários" >Formulários</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+							
+								
+							
+						
+						<li>
+							<a href="http://listas.cefetmg.br/wws" title="Lista de e-mails" >Lista de e-mails</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+							
+						 
+						 
+							
+								
+								
+									
+								
+								
+							
+							
+						
+						<li>
+							<a href="http://www.prefeitura.cefetmg.br/galerias/Arquivos_prefeitura/LISTA_TELEFONICA.pdf" title="Lista telefônica"  target="_blank" >Lista telefônica</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+							
+								
+							
+						
+						<li>
+							<a href="/textoGeral/Boletim/boletim.html" title="Boletim" >Boletim</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+							
+								
+							
+						
+						<li>
+							<a href="/textoGeral/perguntasfrequentes.html" title="Perguntas frequentes" >Perguntas frequentes</a>
+						</li>
+					
+				
+			 </ul>
+			
+			<ul>
+				
+				<li>
+					<span>Mais</span>
+				</li>
+				
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+								
+								
+									
+								
+								
+							
+							
+						
+						<li>
+							<a href="http://www.concursopublico.cefetmg.br/" title="Concursos" >Concursos</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+							
+								
+							
+						
+						<li>
+							<a href="http://moodle.cefetmg.br/" title="Moodle" >Moodle</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+								
+								
+									
+								
+								
+							
+							
+						
+						<li>
+							<a href="http://www.prefeitura.cefetmg.br/site/sobre/" title="Prefeitura" >Prefeitura</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+							
+								
+							
+						
+						<li>
+							<a href="http://seer.dppg.cefetmg.br/" title="Educação & Tecnologia" >Educação & Tecnologia</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+								
+								
+									
+								
+								
+							
+							
+						
+						<li>
+							<a href="http://www.somos.cefetmg.br/" title="Somos" >Somos</a>
+						</li>
+					
+						
+						
+						
+						 
+						 
+						 
+						 
+							
+							
+								
+							
+						
+						<li>
+							<a href="http://cefetmg.br/textoGeral/mapa-do-site.html" title="Mapa do site" >Mapa do site</a>
+						</li>
+					
+				
+			 </ul>
+			
+		
+		
+
+			
+	
+	
+	<ul class="newsletter">
+		<!-- <li>
+			<span>Newsletter</span>
+		</li>
+		<li>
+			<span>Receba Notícias por e-mail</span>
+		</li>
+		<li class="news">
+			<form class="validate" name="newsletter" id="formNewsletter">
+				<label for="newsletter" class="hide">Inscreva-se</label>
+				<input class="required email" id="newsletter" type="text" placeholder="Informe o seu e-mail" value=" ">
+				<button type="submit">Assinar</button>
+				<div class="mensagensAviso">
+	                <p class="aviso">Informe um e-mail válido</p>
+	                <p class='sucesso'>E-mail cadastrado com sucesso</p>
+	                <p class='erro'>Algum erro ocorreu, tente novamente</p>
+                </div>
+			</form>
+			
+		</li>
+		//-->
+		
+				
+				<li class="social">			
+					
+						
+											
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+														
+						
+							
+					 <a href="https://twitter.com/cefet_mg"  target="_blank"  title="Twitter">
+					 	<img src="/system/modules/br.com.squadra.principal/resources/imagens/ico_tweet.png?__scale=w:32,h:32,t:3" width="32" height="32" alt="Twitter" />
+					 </a>
+					
+						
+											
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							
+							
+							
+																	
+							
+						
+						
+							
+					 <a href="https://www.facebook.com/cefetmg"  target="_blank"  title="Facebook">
+					 	<img src="/system/modules/br.com.squadra.principal/resources/imagens/ico_face.png?__scale=w:32,h:32,t:3" width="32" height="32" alt="Facebook" />
+					 </a>
+					
+						
+											
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							
+							
+							
+																	
+							
+						
+						
+							
+					 <a href="https://www.instagram.com/cefetmg"  target="_blank"  title="Instagram">
+					 	<img src="/galeria/imagens/Instagram.png?__scale=w:32,h:32,t:3" width="32" height="32" alt="Instagram" />
+					 </a>
+					
+						
+											
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							
+							
+							
+																	
+							
+						
+						
+							
+					 <a href="https://www.linkedin.com/edu/school?id=10506&trk=prof-following-school-logo"  target="_blank"  title="LinkedIn">
+					 	<img src="/galeria/imagens/Linkedin.png?__scale=w:32,h:32,t:3" width="32" height="32" alt="LinkedIn" />
+					 </a>
+					
+				</li>
+			
+		
+		<img class="imgrodape" src="/galeria/imagens/Logo_Assinatura_CEFET_Rodape.png">
+		
+	</ul>
+	
+		
+			
+			
+			
+			<div id="enderecoFooter">
+				<p>Centro Federal de Educação Tecnológica de Minas Gerais</p>
+				<p>Av. Amazonas, 5.253, Nova Suiça, Belo Horizonte, MG, Brasil. CEP: 30.421-169</p>
+				<p>Telefone: +55 (31) 3319-7000</p>
+			</div>
+		
+	
+</section>
+						</footer>
+					
+				</section>  
+
+						
+		   	<!-- SLIDER -->
+		    <script src="/system/modules/br.com.squadra.principal/resources/js/jquery.easing.1.3.js"></script>
+		    <script src="/system/modules/br.com.squadra.principal/resources/js/jquery.skitter.min.js"></script>
+		   	
+			<!-- JQUERY-UI -->
+		    <script src="/system/modules/br.com.squadra.util/resources/js/jquery-ui-1.10.3.custom.min.js"></script>
+		    
+			<!-- CAROUSEL -->
+		    <script type="text/javascript" src="/system/modules/br.com.squadra.util/resources/js/jquery.jcarousel.min.js"></script>
+		    
+			<!-- PLACE HOLDER -->
+		    <script src="/system/modules/br.com.squadra.principal/resources/js/jquery.placeholder.min.js"></script>
+		    
+			<!-- MODAL -->
+		    <script type="text/javascript" src="/system/modules/br.com.squadra.util/resources/js/jquery.colorbox-min.js"></script>
+		    
+			<!-- VALIDATE -->
+		    <script type="text/javascript" src="/system/modules/br.com.squadra.util/resources/js/jquery.validate.min.js"></script>
+		    
+			<!-- GLOBAL -->
+		    <script src="/system/modules/br.com.squadra.principal/resources/js/global.js"></script>
+			
+			<script defer="defer" src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>		
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+<script src="/system/modules/br.com.squadra.principal/resources/js/video.js"></script>
+<script>videojs.options.flash.swf = "../resources/include/video-js.swf";</script>
+<!-- INDEX -->
+<script type="text/javascript" src="/system/modules/br.com.squadra.principal/resources/js/index.js"></script>
+
+<!-- ENQUETE -->
+<script type="text/javascript" src="/system/modules/br.com.squadra.principal/resources/js/enquete.js"></script>
+
+
+
+
+
+
+	
+		</body>
+</html>
